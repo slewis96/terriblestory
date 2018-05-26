@@ -131,5 +131,7 @@ function chicken(name){
   }
 }
 function items(name){
-  alert(name+" sees a table with three items, these might be helpful later on, there's a large chicken wing, a length of rope, and a hammer,")
+  alert(name+" sees a table with three items, these might be helpful later on, there's a large chicken wing, a length of rope, and a hammer.");
+  alert("A note warns you only to take two items");
+  var itemlist = prompt("Which items will +"name+" take?", "(rope, hammer), (chicken, rope) etc.");
 }
