@@ -173,7 +173,7 @@ function items(name){
 function boss(name, item1, item2){
   alert(name + " is confronted by a spooky skeleton he bellows 'who dares enter my castle'");
   var use = prompt(name + " must think fast " +name+" reaches into their pocket what do they use?", item1 +" or "+item2);
-
+  var use = use.toLowerCase();
   if(use!=item1&&use!=item2){
     alert("you don't have that item");
     boss(name, item1, item2);
